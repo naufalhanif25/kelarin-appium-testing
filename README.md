@@ -23,7 +23,7 @@ Before running the test suite, ensure that your development environment meets th
 Before executing the test suite, create a `.env` file in the root directory of this project to specify your local Appium execution capabilities. Use the following template or modify the `.env.example` file::
 
 ```env
-APPIUM_URL=[http://127.0.0.1:4723/](http://127.0.0.1:4723/)
+APPIUM_URL=http://127.0.0.1:4723/
 APPIUM_PLATFORM_NAME=Android
 APPIUM_DEVICE_NAME=Android Emulator
 APPIUM_AUTOMATION_NAME=UiAutomator2
