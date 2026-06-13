@@ -45,9 +45,7 @@ public class AndroidTest {
     @AfterEach
     public void tearDown() {
         // Terminate the Appium session and close the app after each test method
-        if (driver != null) {
-            driver.quit();
-        }
+        if (driver != null) { driver.quit(); }
     }
 
     /**
@@ -64,7 +62,6 @@ public class AndroidTest {
         } catch (NoSuchElementException e) {
             isElementExist = false;
         }
-
         return isElementExist;
     }
 }
